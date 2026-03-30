@@ -1,0 +1,9 @@
+{
+    "models": ["rf", "lr"],
+    "dataset": {
+        "type": "tox21",
+        "featurizer": "ECFP",
+        "splitter": "scaffold"
+    },
+    "metrics": ["roc_auc", "accuracy", "precision", "recall"]
+}

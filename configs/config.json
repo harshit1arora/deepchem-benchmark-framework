@@ -1,0 +1,11 @@
+{
+    "models": ["rf", "lr"],
+    "dataset": {
+        "type": "synthetic",
+        "n_samples": 1000,
+        "n_features": 20,
+        "test_size": 0.2,
+        "random_state": 42
+    },
+    "metrics": ["accuracy", "roc_auc", "precision", "recall"]
+}

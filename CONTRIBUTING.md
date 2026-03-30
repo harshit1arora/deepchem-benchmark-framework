@@ -1,8 +1,8 @@
-# Contributing to DeepChem Benchmarking Suite 🧪
+# Contributing to DeepChem Benchmarking Suite 
 
 Welcome! We are excited that you're interested in contributing to this project. This suite is designed to be highly modular and extensible, making it easy to add new models, datasets, and metrics.
 
-## 🚀 How to Add a New Model
+## How to Add a New Model
 
 To integrate a new model into the framework, follow these steps:
 
@@ -51,7 +51,7 @@ To integrate a new model into the framework, follow these steps:
     }
     ```
 
-## 📊 How to Add a New Dataset
+## How to Add a New Dataset
 
 To support a new dataset from DeepChem or elsewhere:
 
@@ -64,14 +64,14 @@ To support a new dataset from DeepChem or elsewhere:
     *   Use the `DatasetAdapter` to convert the data into consistent numpy arrays.
     *   Verify that multi-task labels are handled correctly if applicable.
 
-## 📐 Coding Standards
+## Coding Standards
 
 *   **Documentation**: Use **numpydoc** style for all classes and functions.
 *   **Type Hinting**: Always include type hints for function parameters and return values.
 *   **Logging**: Use the project's centralized logger (`benchmark.logger`) instead of `print()`.
 *   **Testing**: Add unit tests for any new features in the `tests/` directory.
 
-## 🧪 Running Tests
+## Running Tests
 
 Before submitting a pull request, ensure all tests pass:
 

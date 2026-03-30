@@ -1,17 +1,17 @@
-# DeepChem Benchmarking Suite 🧪
+# DeepChem Benchmarking Suite 
 
 [![GSoC 2026](https://img.shields.io/badge/GSoC-2026-blue.svg)](https://summerofcode.withgoogle.com/)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## 🌟 Overview
+## Overview
 The **DeepChem Benchmarking Suite** is a modular, production-grade framework designed to evaluate and compare machine learning models on molecular datasets. Built with scalability and extensibility in mind, this project serves as a foundation for a **Google Summer of Code (GSoC)** proposal to integrate standardized benchmarking into the [DeepChem](https://github.com/deepchem/deepchem) ecosystem.
 
 The system allows researchers to run multiple models (e.g., Random Forest, Logistic Regression) against various datasets (scikit-learn synthetic, Tox21, etc.) using a unified evaluation pipeline, ensuring consistent metrics and reproducible results.
 
 ---
 
-## 🚀 Key Features
+## Key Features
 - **Clean & Modular Architecture**: Separation of concerns between model definitions, data loading, evaluation, and orchestration.
 - **DeepChem Native Integration**: Full support for `deepchem.molnet` datasets and specialized molecular featurizers.
 - **Multi-Task Support**: Automatically handles multi-task labels using macro-averaging and multi-output classifiers.
@@ -23,7 +23,7 @@ The system allows researchers to run multiple models (e.g., Random Forest, Logis
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 ```text
 deepchem-benchmark-suite/
 │
@@ -54,7 +54,7 @@ deepchem-benchmark-suite/
 
 ---
 
-## 🛠️ Installation
+## Installation
 
 1. **Clone the Repository**:
    ```bash
@@ -100,7 +100,7 @@ lr              | 0.8550     | 0.9216     | 0.9149     | 0.8037
 
 ---
 
-## 🧪 Testing
+## Testing
 The suite includes a comprehensive set of tests covering the runner, evaluator, and registry.
 ```bash
 # Set PYTHONPATH and run tests
@@ -119,4 +119,4 @@ Contributions are welcome! If you're interested in improving the benchmarking fr
 This project is licensed under the MIT License.
 
 ---
-**Developed for the DeepChem GSoC 2026 Proposal.**
+**Developed for the DeepChem GSoC 2026 Proposal by Harshit Arora.**
